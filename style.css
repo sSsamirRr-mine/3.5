@@ -1,0 +1,80 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.conteiner {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.div {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: qwe;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    margin-left: 350px;
+    margin-bottom: 350px;
+    margin-right: 0px;
+    margin-top: 0px;
+    animation-delay: 1s;
+}
+
+
+@keyframes qwe {
+    25% {
+        background-color: red;
+        margin-top: 350px;
+        margin-right: 350px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+    }
+
+    50% {
+        background-color: rgba(255, 0, 0, 0.423);
+        margin-right: 350px;
+        margin-top: 350px;
+        margin-left: 0px;
+        margin-bottom: 0px;
+    }
+
+
+
+    75% {
+        background-color: black;
+        margin-bottom: 350px;
+        margin-right: 350px;
+        margin-left: 0px;
+        margin-top: 0px;
+
+    }
+
+    100% {
+        background-color: yellow;
+        margin-left: 350px;
+        margin-bottom: 350px;
+        margin-right: 0px;
+        margin-top: 0px;
+    }
+
+}
